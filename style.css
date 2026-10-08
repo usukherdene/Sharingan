@@ -136,7 +136,7 @@ body {
     }
 
     100% {
-        transform: rotate(360deg);
+        transform: rotate(720deg);
     }
 }
 
@@ -192,6 +192,84 @@ body {
     }
     76% {
         opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.genjitsu-1 {
+    opacity: 0;
+    animation: genjitsu-1 10s linear infinite;
+}
+
+.genjitsu-2 {
+    opacity: 0;
+    animation: genjitsu-2 10s linear infinite;
+}
+
+.genjitsu-3 {
+    opacity: 0;
+    animation: genjitsu-3 10s linear infinite;
+}
+
+@keyframes genjitsu-1 {
+    0% {
+        opacity: 0;
+    }
+    30% {
+        opacity: 0;
+    }
+    35% {
+        opacity: 100;
+    }
+    50% {
+        opacity: 100;
+    }
+    74% {
+        opacity: 100;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes genjitsu-2 {
+    0% {
+        opacity: 0;
+    }
+    35% {
+        opacity: 0;
+    }
+    40% {
+        opacity: 100;
+    }
+    50% {
+        opacity: 100;
+    }
+    74% {
+        opacity: 100;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes genjitsu-3 {
+    0% {
+        opacity: 0;
+    }
+    40% {
+        opacity: 0;
+    }
+    45% {
+        opacity: 100;
+    }
+    50% {
+        opacity: 100;
+    }
+    74% {
+        opacity: 100;
     }
     100% {
         opacity: 0;
